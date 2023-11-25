@@ -1,0 +1,29 @@
+.cell{
+    color: white;
+    width: 60px;
+    height: 60px; 
+    border: 6px outset black;
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+.title{
+    color: teal;
+    text-align: center;
+}
+
+table{
+    border: 3px solid black;
+    margin: auto;
+}
+
+table td{
+    padding: 0;
+    margin: 0;
+}
+
+.clicked{
+    border: 3px solid black;
+}

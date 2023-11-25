@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mine Sweeper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body onload="minesBuild()">
+    <div class="header">
+        <h1 class="title">Mine Game</h1>
+    </div>
+    <div class="main">
+        <table>
+            <tr>
+                <td><button class="cell" id="11" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="21" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="31" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="41" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="51" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="61" onclick="pressBtn(this)"></button></td>
+            </tr>
+            <tr>
+                <td><button class="cell" id="12" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="22" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="32" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="42" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="52" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="62" onclick="pressBtn(this)"></button></td>
+            </tr>
+            <tr>
+                <td><button class="cell" id="13" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="23" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="33" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="43" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="53" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="63" onclick="pressBtn(this)"></button></td>
+            </tr>
+            <tr>
+                <td><button class="cell" id="14" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="24" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="34" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="44" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="54" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="64" onclick="pressBtn(this)"></button></td>
+            </tr>
+            <tr>
+                <td><button class="cell" id="15" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="25" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="35" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="45" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="55" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="65" onclick="pressBtn(this)"></button></td>
+            </tr>
+            <tr>
+                <td><button class="cell" id="16" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="26" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="36" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="46" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="56" onclick="pressBtn(this)"></button></td>
+                <td><button class="cell" id="66" onclick="pressBtn(this)"></button></td>
+            </tr>
+        </table>
+    </div>
+    <audio id="clickSound" src="./audio/btnclick.mp3"></audio>
+    <audio id="gameOverSound" src="./audio/gameover.mp3"></audio>
+    <audio id="gameWinSound" src="./audio/gamewin.wav"></audio>
+</body>
+
+
+</html>
